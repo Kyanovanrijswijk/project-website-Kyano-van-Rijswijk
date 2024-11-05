@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+  overflow-x: hidden;
+}
+
+.homemain {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e0f7fa; 
+  font-family: 'Goldman', sans-serif;
+}
+
+.homemain {
+  text-align: center;
+  font-size: 3rem;
+  color: #00796b; 
+  border-left: 40px solid black;
+  border-right: 40px solid black;
+  border-bottom: 40px solid black;
+  background-color: darkgreen;
+ 
+}
+
+.homemain {
+  overflow-y: scroll;
+  margin: 0;
+}
+
+
+body::-webkit-scrollbar {
+  display: none; /
+}
+
+
+body {
+  scrollbar-width: none;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  background: rgb(1, 160, 1);
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 5px solid yellow;
+  overflow: hidden;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav li {
+  margin-left: 2rem;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+nav a {
+  border: 3px solid black;
+  border-radius: 2rem;
+  padding: 0.3rem 0.8rem;
+  color: #b9b970;
+  text-decoration: none;
+  font-size: 1.5rem;
+  margin-right: 2rem;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.HOMETITLE {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #b9b970;
+  border-bottom: 5px solid black;
+  border-radius: 10px;
+  padding: 12px ;
+}
+  
+
+.homemain{
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  
+}
+
+
+
+/* home pagina */
+
+
+
+/* intro pagina */
+
+.mainintro {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+}
+
+.left {
+  left: 0;
+  margin-top: 10rem;
+  background-color: #111;
+  border-left: 5px solid white;
+  border-right: 5px solid white;
+  background-image: url(img/foto\ ryan.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 5rem; 
+}
+
+.right {
+  right: 0;
+  margin-top: 10rem;
+  background-image: url(img/IMG-20230607-WA0002.jpg);
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 5rem;
+}
+
+.centered {
+  text-align: left;
+  color: black;
+
+}
+
+.introtitle1 {
+  width: 50vw;
+  text-align: left; 
+  color: black;
+}
+
+spankyano {
+  color: white;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+
+/* intro pagina */
+
+/* locatie gits */
+
+
+.mainloca {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: auto;
+  background-image: linear-gradient(to right, black 40vw, green 60%, yellowgreen 100%);
+  border-left: 5px solid white;
+  overflow-y: auto; /* allows vertical scrolling */
+}
+
+
+
+
+.ryanloca {
+  margin-left: 30px;
+  margin-top: 11rem;
+  width: 40vw;
+  height: auto;
+  color: white;
+  text-align: left;
+  padding-right: 1px;
+}
+
+.ryanloca table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.ryanloca th, .ryanloca td {
+  padding: 12px;
+  text-align: left;
+  border-left: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.ryanloca th {
+  color: white;
+}
+
+.midden {
+  text-align: left;
+  margin-left: 50px;
+}
+
+.kyanoloca {
+  margin-top: 180px;
+  color: white;
+  text-align: left;
+  margin-top: 11rem;
+  width: 40vw;
+  height: auto;
+  text-align: left;
+  padding-right: 1px;
+}
+
+.splits {
+  height: 100vh;
+margin-left: 45%;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+    width: 55%; 
+    margin-right: auto; 
+}
+
+
+
+
+
+/* locatie gits */
+
+
+/* canvas */
+.maincanvas {
+  margin: 0;
+  margin-top: 10vh;
+  padding: 20px; 
+  width: 100vw;
+  height: auto; 
+  background-color: #6a0dad; 
+  border-left: 20px solid black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.textcanvas {
+  margin-top: 50px;
+  max-width: 800px; 
+}
+
+.cancvash1, .cancvash2 {
+  border-bottom: 2px solid white;
+}
+
+span {
+  font-size: large;
+  font-weight: bold;
+}
+
+img {
+  max-width: 50%;
+  height: auto; 
+  display: block;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+/* canvas */
+
+
+
+/* eduarte */
+.eduartemain {
+  margin: 0;
+  margin-top: 10rem;
+  font-family: Arial, sans-serif;
+  background-color: #001f3f; /* Donkerblauwe achtergrond */
+  color: white; /* Witte tekst */
+  line-height: 1.6;
+}
+
+.blauw, .blauwe {
+  color: #00BFFF; /* Lichtere blauw voor de kopjes */
+}
+
+.blauw {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.blauwe {
+  margin-top: 20px;
+}
+
+p {
+  padding: 0 20px;
+}
+
+.ul2 {
+  padding: 0 40px; /* Extra padding voor de lijsten */
+}
+
+.ul2 li {
+  margin-bottom: 10px; /* Ruimte tussen de lijstitems */
+}
+
+img {
+  display: block;
+  margin: 20px auto; /* Center afbeelding en voeg ruimte toe */
+  max-width: 90%; /* Beperk de breedte van de afbeeldingen */
+  height: auto; /* Houd de aspect ratio */
+}
+
+divimg33{
+  display: block;
+  margin: 20px auto; /* Center afbeelding en voeg ruimte toe */
+  max-width: 90%; /* Beperk de breedte van de afbeeldingen */
+  height: auto; /* Houd de aspect ratio */
+}
+
+a {
+  color: #00BFFF; /* Blauw voor de links */
+  text-decoration: none; /* Verwijder onderlijnen */
+}
+
+a:hover {
+  text-decoration: underline; /* Onderstreep de link bij hover */
+}
+
+
+/* eduarte */
+
+
+/* diploma */
+.diplomamain {
+  margin: 0;
+  margin-top: 8rem;
+  padding: 20px;
+  width: 100vw;
+  height: 51rem;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8e79e; 
+  display: flex;
+  align-items: flex-start; 
+  justify-content: space-between;
+  border: 10px solid #3b3b3b;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.diplomatext {
+  margin: 10px 20px; 
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.9); 
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 600px; 
+  flex: 1; 
+  overflow-y: auto; 
+  max-height: 90vh; 
+}
+
+ul {
+  margin: 10px 0;
+  padding-left: 20px;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 1.1em;
+}
+
+.fotodiploma {
+  margin-right: 160px;
+  margin-top: 9rem; 
+  width: 800px; 
+  height: auto; 
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+/* diploma */
+
+
+/* bsa */
+.bsamain {
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.863);
+  border-left: 40px solid rgb(255, 255, 255);
+  border-right: 20px solid rgb(255, 255, 255); 
+  border-bottom: 2px solid white;
+  overflow-y: hidden;
+}
+
+.bsatitle {
+  color: orange;
+  margin-top: 180px;
+}
+
+.bsasubtitle{
+  border-bottom: 2px solid white;
+}
+
+.bsatext {
+  text-align: left;
+  margin-left: 5px;
+  color: orange;
+}
+
+/* bsa */
+
+
